@@ -1,0 +1,359 @@
+#d-wrapper {
+    background-color: #222;
+    width: 800px;
+    height: 450px;
+    margin: 100px auto 100px auto;
+    -moz-border-radius: 10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    border-radius: 10px;
+    /* Prevent background color leak outs */
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.d-moon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    -moz-border-radius: 50%; /* Firefox */
+    -webkit-border-radius: 50%; /* Safari, Chrome */
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fefefe;
+}
+
+.d-moon-p1 {
+
+    width: 100px;
+    height: 100px;
+    top: 0;
+}
+
+.d-moon-p2 {
+    background-color: #222;
+    width: 70px;
+    height: 70px;
+    left: 30px;
+}
+
+#d-moon {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+
+    -webkit-animation-name: moon;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: moon;
+    -moz-animation-duration: 30s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+
+    -ms-animation-name: moon;
+    -ms-animation-duration: 30s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: normal;
+    -ms-animation-delay: 0;
+    -ms-animation-play-state: running;
+    -ms-animation-fill-mode: forwards;
+
+    -o-animation-name: moon;
+    -o-animation-duration: 30s;
+    -o-animation-timing-function: ease;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: normal;
+    -o-animation-delay: 0;
+    -o-animation-play-state: running;
+    -o-animation-fill-mode: forwards;
+
+    animation-name: moon;
+    animation-duration: 30s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes moon {
+
+    0% {
+        opacity: 0.0;
+        left: 300px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    100% {
+        opacity: 0.0;
+        left: 300px;
+    }
+
+}
+
+@-moz-keyframes moon {
+
+    0% {
+        opacity: 0.0;
+        left: 300px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    100% {
+        opacity: 0.0;
+        left: 300px;
+    }
+
+}
+
+@-ms-keyframes moon {
+
+    0% {
+        opacity: 0.0;
+        left: 300px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    100% {
+        opacity: 0.0;
+        left: 300px;
+    }
+}
+
+@-o-keyframes moon {
+
+    0% {
+        opacity: 0.0;
+        left: 300px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    100% {
+        opacity: 0.0;
+        left: 300px;
+    }
+}
+
+@keyframes moon {
+
+    0% {
+        opacity: 0.0;
+        left: 300px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    100% {
+        opacity: 0.0;
+        left: 300px;
+    }
+}
+
+#d-cloud {
+    width: 235px;
+    height: 150px;
+    position: relative;
+    top: 140px;
+    background-color: transparent;
+    left: 260px;
+
+    -webkit-animation-name: cloud;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+
+    -moz-animation-name: cloud;
+    -moz-animation-duration: 30s;
+    -moz-animation-timing-function: ease;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: normal;
+    -moz-animation-delay: 0;
+    -moz-animation-play-state: running;
+    -moz-animation-fill-mode: forwards;
+
+    -ms-animation-name: cloud;
+    -ms-animation-duration: 30s;
+    -ms-animation-timing-function: ease;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: normal;
+    -ms-animation-delay: 0;
+    -ms-animation-play-state: running;
+    -ms-animation-fill-mode: forwards;
+
+    -o-animation-name: cloud;
+    -o-animation-duration: 30s;
+    -o-animation-timing-function: ease;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: normal;
+    -o-animation-delay: 0;
+    -o-animation-play-state: running;
+    -o-animation-fill-mode: forwards;
+
+    animation-name: cloud;
+    animation-duration: 30s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-delay: 0;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes cloud {
+
+    0% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 550px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 100px;
+    }
+
+}
+
+@-moz-keyframes cloud {
+
+    0% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 550px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 100px;
+    }
+
+}
+
+@-ms-keyframes cloud {
+
+    0% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 550px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 100px;
+    }
+
+}
+
+@-o-keyframes cloud {
+
+    0% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 550px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 100px;
+    }
+
+}
+
+@keyframes cloud {
+
+    0% {
+        opacity: 1;
+        left: 100px;
+    }
+
+    50% {
+        opacity: 1;
+        left: 550px;
+    }
+
+    100% {
+        opacity: 1;
+        left: 100px;
+    }
+}
+
+.d-cloud {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.d-cloud-p1 {
+    left: 0;
+    top: 30px;
+}
+
+.d-cloud-p2 {
+    left: 30px;
+    top: 0px;
+    width: 160px;
+    height: 150px;
+
+}
+
+.d-cloud-p3 {
+    left: 130px;
+    top: 30px;
+
+}

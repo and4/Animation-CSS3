@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Calibri Light", "sans-serif";
+    background-color: #444;
+
+}
+
+.g-title, .g-header,
+.g-footer {
+    color: #fefefe;
+    text-align: center;
+    padding: 10px;
+    line-height: normal;
+    min-height: 32px;
+}
+
+#g-wrapper {
+    width: 1088px;
+    margin: auto;
+    height: 32px;
+}
+
+.g-title {
+    background-color: #444;
+    font-size: 28px;
+}
+
+.g-header,
+.g-footer {
+    background-color: rgba(0, 0, 0, .7);
+    font-size: 22px;
+    text-align: left;
+    min-height: 32px;
+    height: auto;
+
+
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.g-footer{
+    text-align: center;
+
+}
+.g-footer a {
+    color: #fefefe;
+}
+
+.g-header a.g-download {
+    display: block;
+    padding: 5px 20px;
+    color: #fefefe;
+    text-decoration: none;
+    background-color: #0099d5;
+    border: 1px solid #222;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.g-header a.g-download:hover {
+    background-color: #00719e;
+
+}
